@@ -1,9 +1,9 @@
-import { Component, EventEmitter, Input, Output } from "@angular/core";
-import { Product } from "./product.types";
+import { Component, EventEmitter, Input, Output } from '@angular/core';
+import { Product } from './product.types';
 
 @Component({
-  selector: "app-product",
-  templateUrl: "./product.component.html",
+  selector: 'app-product',
+  templateUrl: './product.component.html',
   standalone: false,
 })
 export class ProductComponent {
